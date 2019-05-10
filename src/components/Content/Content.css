@@ -21,7 +21,6 @@
     align-items: center
 }
 
-
 .drum__controls-power {
     cursor:pointer;
     padding:10px;
@@ -88,7 +87,6 @@
     align-items: center;
     cursor: pointer;
     color: var(--main-secondary-color);
-    
 }
 
 .drum-pad:active{
