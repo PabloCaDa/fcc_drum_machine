@@ -1,0 +1,126 @@
+.drum__box{
+    min-width: 600px;
+    max-width: 600px;
+    max-height: 400px;
+    background-color: #000000;
+    background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
+    border: 1px solid rgb(114, 113, 113);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    box-shadow: 1px 1px 2px 1px #333
+}
+.drum__controls{
+    padding:10px;
+    border-bottom:5px solid rgb(114, 113, 113);
+    background-color: transparent;
+    display:flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+
+.drum__controls-power {
+    cursor:pointer;
+    padding:10px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.drum__controls-power.on{
+    color:green;
+}
+
+.drum__controls-power.off{
+    color:red;
+}
+
+.drum__controls-display{
+    padding:5px;
+    background-color: #000;
+    color: blue;
+    min-width: 100px;
+    min-height: 20px;
+    border:2px solid rgb(114, 113, 113)
+}
+
+.drum__controls-display p{
+    margin:0px
+}
+
+.drum__controls-volumen {
+    display:flex;
+    justify-content: space-between
+}
+
+.drum__controls-volumen_display {
+    padding:5px;
+    background-color: #000;
+    color: blue;
+    min-width: 40px;
+    min-height: 20px;
+    border:2px solid rgb(114, 113, 113)
+}
+
+.drum__controls-volumen_display p{
+    margin:0px
+}
+
+.drum__pads{
+    padding:40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 10px 30px;
+}
+
+.drum-pad{
+    min-height: 80px;
+    background-color: #000;
+    border:1px solid rgb(114, 113, 113);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: var(--main-secondary-color);
+    
+}
+
+.drum-pad:active{
+    border:1px solid var(--main-secondary-color);
+    color: black;
+    background: var(--main-secondary-color);
+}
+
+.drum__controls-bank {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 150px;
+    color: var(--main-secondary-color)
+}
+
+.drum__controls-bank_selector {
+    width: 50px;
+    margin: 0px 5px;
+    height: 20px;
+    background: black;
+    padding: 2px 2px;
+    cursor: pointer
+}
+
+.drum__controls-bank_button {
+    width:20px;
+    height: 20px;
+    background: var(--main-secondary-color);
+}
+
+.drum__brand img{
+    width: 100px;
+    height: 100px;
+}
